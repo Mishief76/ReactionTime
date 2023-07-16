@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #result {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* ปรับแต่งสไตล์ปุ่ม */
+  #reactionBtn {
+    width: 500px;
+    height: 250px;
+    transition: background-color 0.01s ease-in-out;
+  }
+  #reactionBtn:hover {
+    background-color: #007bff;
+  }
+
+  #startBtn{
+    width: 500px;
+    height: 250px;
+  }
+  
